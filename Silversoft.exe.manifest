@@ -276,6 +276,18 @@
     </dependentAssembly>
   </dependency>
   <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GenCode128.dll" size="24576">
+      <assemblyIdentity name="GenCode128" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>rsKh+qLp/+Gv6h4IfoED4rO9siB1qllENcHB8YN763Y=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="log4net.dll" size="237568">
       <assemblyIdentity name="log4net" version="1.2.10.0" publicKeyToken="692FBEA5521E1304" language="neutral" processorArchitecture="amd64" />
       <hash>
@@ -432,14 +444,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Silversoft.exe" size="4911616">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Silversoft.exe" size="5609984">
       <assemblyIdentity name="Silversoft" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>STnRiE/0v2jvB56Y43onkgKHeZ4srsxJR25D7A3TwT4=</dsig:DigestValue>
+        <dsig:DigestValue>tbV10HN/QEHDkoyURnX/psWF1dlNPWttkNBTN7pSJts=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -452,6 +464,18 @@
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
         <dsig:DigestValue>cIq9imgoDt+GxOFQczv6npUQ3lA/YBrtHKrixl+0mfw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ThoughtWorks.QRCode.dll" size="91136">
+      <assemblyIdentity name="ThoughtWorks.QRCode" version="1.0.5878.27564" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>lLdhzoIEwFncWBswDWpG4E9c3vw6nzL0QyluBwobFrI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
